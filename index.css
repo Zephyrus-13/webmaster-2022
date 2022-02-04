@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.navStyle{
+  background-color: orange;
+  margin-top: 0%;
+}
+
+.navLinks{
+  float: right;
+  float: up;
+}
+
+.exTitle{
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.exClass{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.homeTitle{
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.homeBody1{
+  text-align: left;
+  margin-bottom: 8%;
+}
+
+.homeBody2{
+  text-align: right;
+  margin-bottom: 6%;
+}
+
+button{
+  width: 33%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+}
+
+.arrowButton{
+  width: 1%;
+  padding-top: .75%;
+  padding-bottom: .75%;
+}
+
+.outer{
+  float: left;
+}
