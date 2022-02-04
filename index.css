@@ -3,7 +3,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:orange;
+  style={{
+    background-Color: orange;
+  }}
 }
 
 code {
@@ -33,7 +35,6 @@ code {
 .homeTitle{
   text-align: center;
   margin-bottom: 4%;
-  background-color:orange;
 }
 
 .homeBody1{
