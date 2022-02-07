@@ -53,6 +53,9 @@ button{
   padding-top: 9.5%;
   padding-bottom: 9.5%;
   border-radius: 0%;
+  background-color: #4CAF50; /* Green */
+  color: white;
+
 }
 
 .arrowButton{
