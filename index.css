@@ -3,16 +3,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  style={{
-    background-Color: orange;
-  }}
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  style={{
-    background-Color: orange;
-  }}
 }
 
 .navStyle{
@@ -40,7 +34,7 @@ code {
   margin-bottom: 4%;
 }
 
-.homeboi{
+.App{
   background-color: orange;
 }
 
