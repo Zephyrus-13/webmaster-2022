@@ -1,3 +1,4 @@
+/*General Setup Style*/
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -9,16 +10,140 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+.mainBody{
+  background-color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*NavBar Style*/
+.navbar{
+  background-color: black;
+}
+
 .navStyle{
-  background-color: orange;
+  background-color: black;
+  color: white;
   margin-top: 0%;
+}
+
+.navMainButton{
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.titlePage{
+  text-decoration: none;
 }
 
 .navLinks{
   float: right;
-  float: up;
+  width: 40%;
 }
- 
+
+.navGButton{
+  float: right;
+  width: 20%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  border-radius: 0%;
+}
+
+.navEButton{
+  float: right;
+  width: 20%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  border-radius: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Home Styles*/
+.homeTitle{
+  text-align: center;
+  margin-bottom: 4%;
+  color: white;
+}
+
+.titlePage{
+  text-align: left;
+  margin-bottom: 8%;
+  color: white;
+}
+
+.body1{
+  width: 30%;
+  height: 40%;
+  background-color: aqua;
+}
+
+.homeBody1{
+  color: white;
+}
+
+
+.homeFloat1{
+  float: left;
+  background-color: blue;
+}
+
+.homeFloat2{
+  float: right;
+  width: 50%;
+  padding-bottom:10%;
+  background-color: green;
+  display: inline;
+}
+
+
+.img1{
+  float: right;
+  margin-top: 0%;
+  width:100%;
+  height:100%;
+}
+
+.homeBody2{
+  text-align: right;
+  margin-bottom: 6%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ExHall Styles*/
 .exTitle{
   text-align: center;
   margin-bottom: 4%;
@@ -29,24 +154,39 @@ code {
   margin-bottom: 2%;
 }
 
-.homeTitle{
-  text-align: center;
-  margin-bottom: 4%;
+button{
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  color: white;
 }
 
-.App{
-  background-color: orange;
+.b1{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg);
+  font-size: 20%;
 }
 
-.homeBody1{
-  text-align: left;
-  margin-bottom: 8%;
+.b2{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Neuschwanstein_Castle_LOC_print_rotated.jpg/640px-Neuschwanstein_Castle_LOC_print_rotated.jpg);
 }
 
-.homeBody2{
-  text-align: right;
-  margin-bottom: 6%;
+.b3{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Shanghai_-_Yu_Garden_-_0035.jpg/640px-Shanghai_-_Yu_Garden_-_0035.jpg);
 }
+
+.b4{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Hundred_Islands_Christ_the_Redeemer_Statue.jpg/640px-Hundred_Islands_Christ_the_Redeemer_Statue.jpg);
+}
+
+.b5{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/The_Great_Mosque_of_Djenn%C3%A9_in_Mali_is_the_largest_mud_brick_building_in_the_world._%2832931594225%29.jpg/640px-The_Great_Mosque_of_Djenn%C3%A9_in_Mali_is_the_largest_mud_brick_building_in_the_world._%2832931594225%29.jpg);
+}
+
+.b6{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/640px-Sydney_Opera_House_-_Dec_2008.jpg);
+}
+
 
 button.hover{
   width: 33%;
@@ -58,12 +198,27 @@ button.hover{
 
 }
 
-.arrowButton{
+.arrowButtonL{
   width: 1%;
   padding-top: .75%;
   padding-bottom: .75%;
+  float:left;
 }
 
-.outer{
-  float: left;
+.arrowButtonR{
+  width: 1%;
+  padding-top: .75%;
+  padding-bottom: .75%;
+  /*float: right;*/
+}
+
+outer{
+  padding-top: 40%;
+}
+
+
+/*Trivia*/
+.answer-section{
+  width: 75%;
+  text-align: center;
 }
